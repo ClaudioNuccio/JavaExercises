@@ -1,0 +1,10 @@
+public class MyClass {
+    public static void main(String args[]) {
+      double x = 46.23; 
+      double y = 10.46;
+      int sum = (int)x + (int) y ;
+      
+
+      System.out.println("The sum of x + y as integers is  " + sum);
+    }
+}
