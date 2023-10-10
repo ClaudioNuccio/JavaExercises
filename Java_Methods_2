@@ -1,0 +1,10 @@
+public class MyClass {
+    public static void stringLength (String inputString){
+    int length = inputString.length();
+    System.out.println(length);
+}
+    public static void main(String args[]) {
+   stringLength ("I will calculate this string length");
+    
+    }
+}
