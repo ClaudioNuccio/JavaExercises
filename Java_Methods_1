@@ -1,0 +1,11 @@
+public class MyClass {
+      public static void somma (int x, int y){
+         int z = x + y ;
+         
+         System.out.println(" The sum of the two humbers you entered is " + z);
+     }
+    public static void main(String args[]) {
+   
+     somma(36,6);
+    }
+}
