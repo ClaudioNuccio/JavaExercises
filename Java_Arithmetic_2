@@ -1,0 +1,12 @@
+public class MyClass {
+    public static void myDiv (int x, int y){
+        int result = x / y ;
+        int remainder = x % y ;
+        System.out.println("The result of the division between your numbers is " + result);
+        System.out.println("The remainder of the division between your numbers is " + remainder);
+    }
+    
+    public static void main(String args[]){
+myDiv (10,25);
+    }
+}
