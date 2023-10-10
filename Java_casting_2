@@ -1,0 +1,9 @@
+public class MyClass {
+    public static void main(String args[]) {
+      char m = 'm';
+      char k = 'k';
+      String sumOfMk = String.valueOf (m) + String.valueOf (k) ;
+
+      System.out.println("The sum of the two characters is   " + sumOfMk);
+    }
+}
