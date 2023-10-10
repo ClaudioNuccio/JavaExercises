@@ -1,0 +1,12 @@
+public class MyClass {
+    public static void myMult (int x, int y){
+         int first = x + 6 ;
+         int second = y + 4 ;
+        int result = first * second ;
+        System.out.println("After I added 6 to x and 4 to y the result of your multiplication is " + result );
+    }
+    
+    public static void main(String args[]){
+myMult (10,25);
+    }
+}
