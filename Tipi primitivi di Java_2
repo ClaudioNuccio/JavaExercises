@@ -1,0 +1,9 @@
+public class MyClass {
+    public static void main(String args[]) {
+     char c = 'c';
+     char n = 'n';
+      
+
+      System.out.println("The sum of the two characters is " + c + n);
+    }
+}
