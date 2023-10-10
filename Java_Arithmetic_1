@@ -1,0 +1,10 @@
+public class MyClass {
+    public static void myAverage (double x, double y, double z){
+        double average = (x + y + z) / 3 ;
+        System.out.println("The average of the three numbers you put as parameters is " + average);
+    }
+    
+    public static void main(String args[]){
+myAverage(4,10,28);
+    }
+}
